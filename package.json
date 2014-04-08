@@ -1,7 +1,7 @@
 {
-  "name": "unique-random",
-  "version": "0.1.0",
+  "name": "sindresorhus-unique-random",
   "description": "Generate random numbers that are consecutively unique",
+  "version": "0.1.0",
   "keywords": [
     "unique",
     "random",
@@ -11,27 +11,7 @@
     "generate",
     "non-repeating"
   ],
-  "license": "MIT",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "files": [
-    "unique-random.js"
-  ],
-  "main": "unique-random",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sindresorhus/unique-random.git"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "~1.14.0"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  }
+  "main": "unique-random.js",
+  "dependencies": {},
+  "license": "MIT"
 }
